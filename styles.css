@@ -1,0 +1,54 @@
+
+
+html {
+    height: 100%;
+    font-family: sans-serif;
+    background: #F8EFBA}
+
+body {
+    height: 100%;
+    width: 100%;  
+    overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+    margin: 0px;  /*removes default style*/
+    display: flex;  /*enables flex content for its children*/
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.navBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: flex-end;
+    background: #EAB543;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background: #f5cd79
+}
+
+.realbody {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

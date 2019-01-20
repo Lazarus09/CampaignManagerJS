@@ -1,0 +1,11 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "packager for jsons",
+  "main": "mapCreate.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
